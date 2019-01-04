@@ -1,0 +1,12 @@
+h4{
+    color: white;
+  }
+  
+  .hover{
+      background-color: #4E6CE8;
+  }
+  
+  
+  .hover:hover{
+      background-color: rgba(0,0,0,0.5);
+  }
