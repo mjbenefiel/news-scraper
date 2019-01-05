@@ -107,10 +107,10 @@ $(document).ready(function() {
               data.map((comment) => {
 
                 if (comment === null) {
-                  let notesDiv = "<div class='col s12 m7'><div class='card horizontal'><div class='card-image'><img src='https://lorempixel.com/100/190/nature/6'></div><div class='card-stacked center'><div class='card-content valign-wrapper'><p>No Notes.</p></div></div></div></div>";
+                  let notesDiv = "<div class='col s12 m7'><div class='card horizontal'><div class='card-image'><div class='card-content valign-wrapper'><p>No Notes.</p></div></div></div></div>";
                   $(".boxComments").prepend(notesDiv);
                 } else {
-                  let notesDiv = "<div class='col s12 m7' id='" + comment["_id"] + "'><div class='card horizontal'><div class='card-image'><img src='https://lorempixel.com/100/190/nature/6'></div><div class='card-stacked center'><div class='card-content valign-wrapper'><p>" + comment.body + "</p></div><div class='card-action deleteComment' data-id=" + comment["_id"] + "><a href='#'>Delete</a></div></div></div></div>";
+                  let notesDiv = "<div class='col s12 m7' id='" + comment["_id"] + "'><div class='card horizontal'><div class= 'card-image'></div><div class='card-stacked center'><div class='card-content valign-wrapper'><p>" + comment.body + "</p></div><div class='card-action deleteComment' data-id=" + comment["_id"] + "><a href='#'>Delete</a></div></div></div></div>";
                   $(".boxComments").prepend(notesDiv);
                 }
 
@@ -134,7 +134,7 @@ $(document).ready(function() {
 
               });
             } else {
-              let notesDiv = "<div class='col s12 m7'><div class='card horizontal'><div class='card-image'><img src='https://lorempixel.com/100/190/nature/6'></div><div class='card-stacked center'><div class='card-content valign-wrapper'><p>No Notes.</p></div></div></div></div>";
+              let notesDiv = "<div class='col s12 m7'><div class='card horizontal'><div class='card-image'></div><div class='card-stacked center'><div class='card-content valign-wrapper'><p>No Notes.</p></div></div></div></div>";
               $(".boxComments").prepend(notesDiv);
             }
           }); // End of APi Populate Note
