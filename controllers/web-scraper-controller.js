@@ -53,7 +53,7 @@ module.exports = (app) => { // Export Module Containing Routes. Called from Serv
           }); // Store HTML Data as an Object within an Object
         } // End of If Else
       }); // End of Article Serch
-
+  
       // Return Scrapped Data to Handlebars for Rendering
       res.render("index", handlebarsObject);
     });

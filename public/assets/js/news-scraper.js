@@ -5,7 +5,11 @@ $(document).ready(function() {
 
   $('.searchArticle').on("click", () => { // Scrap Articles Request
     // console.log("searchArticle Button clicked");
-    fetch("/api/search", {method: "GET"}).then(() => window.location.replace("/api/search"));
+        
+    fetch("/api/search", {method: "GET"}
+    ).then(() => window.location.replace("/api/search"));
+  
+   
   }); // End searchArticle btn Click
 
   $('.addArticle').on("click", function(element) { // Save an Article Request
