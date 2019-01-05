@@ -10,7 +10,7 @@ Feel free to use some or all of this code if you're trying to complete a similar
 
 <h3> App screenshot </h3>
 
-![alt text](https://raw.githubusercontent.com/mjbenefiel/burger/master/public/assets/img/demo.jpg "News Scraper")
+![alt text](https://raw.githubusercontent.com/mjbenefiel/news-scraper/master/public/assets/img/news-image.jpg "News Scraper")
 
 <h2> Project overview</h2>
 This news scraper allows users to scrape news articles from NPR.com. Users can then view and leave comments on saved articles. This app uses Cheerio to scrape news from NPR and stores them in MongoDB using Mongoose. 
@@ -37,16 +37,14 @@ This news scraper allows users to scrape news articles from NPR.com. Users can t
 
 <h4>How it works</h4>
 
-- controllers
-    
-  
-- models
-      
-- public
-    - assets
-        
-- views
-    - handlebars functionality
+- Scrape the news
+![alt text](https://raw.githubusercontent.com/mjbenefiel/news-scraper/master/public/assets/img/news-image.jpg "News Scraper")
 
-- server.js
-    - configuration of server and application
+- Save an article for later use
+![alt text](https://raw.githubusercontent.com/mjbenefiel/news-scraper/master/public/assets/img/add-article.jpg "News Scraper")
+
+- View saved article
+![alt text](https://raw.githubusercontent.com/mjbenefiel/news-scraper/master/public/assets/img/view-saved-article.jpg "News Scraper")
+
+- Add an article note
+![alt text](https://raw.githubusercontent.com/mjbenefiel/news-scraper/master/public/assets/img/add-note.jpg "News Scraper")
