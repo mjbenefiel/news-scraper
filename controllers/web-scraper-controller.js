@@ -24,6 +24,7 @@ module.exports = (app) => { // Export Module Containing Routes. Called from Serv
 
   // Scrape Articles Route
   app.get("/api/search", (req, res) => {
+     
 
     axios.get("https://www.npr.org/sections/news/").then(response => {
       // console.log("Load Response");
@@ -56,6 +57,7 @@ module.exports = (app) => { // Export Module Containing Routes. Called from Serv
   
       // Return Scrapped Data to Handlebars for Rendering
       res.render("index", handlebarsObject);
+       
     });
   });
 
