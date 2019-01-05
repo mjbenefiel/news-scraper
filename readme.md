@@ -39,7 +39,7 @@ This news scraper allows users to scrape news articles from NPR.com. Users can t
 
 - Scrape the news
 
-<br>
+<p></p>
 
 ![alt text](https://raw.githubusercontent.com/mjbenefiel/news-scraper/master/public/assets/img/news-image.jpg "News Scraper")
 
